@@ -1,0 +1,13 @@
+
+    <html><body>
+    <video id="v" src="https://rr1---sn-jtcxg-iqqs.googlevideo.com/videoplayback?expire=1789666359&ei=18-rar_dIp_5xN8P_ubVwQc&ip=2400%3Aadc3%3A136%3Ac102%3Ab5d7%3Ab7a3%3Aeb0b%3Ab283&id=o-AE9kagOeTML93gbTnUCn0L4zkpSQb1AaLpSjnLu5BBUO&itag=136&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=1007&met=1789644759%2C&mh=f5&mm=18%2C29&mn=sn-jtcxg-iqqs%2Csn-hju7enel&ms=aub%2Crdu&mv=m&mvi=1&pl=51&rms=aub%2Caub&initcwndbps=513625&bui=AR3QkAmk3em2SWhZgGnGR37e1NW3hMPFX_jyIy6Cd-BppeGINFZfOmu2ZP20e62ByypLr-ybxW9XhzD_&spc=I-rgIVr1gwgeetuSGq75bjkm_tooGYMfVInhXMA1fdU4L_Zi5wyMHZSDDg&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=29382303&dur=366.824&lmt=1784977466241982&mt=1789644284&fvip=3&keepalive=yes&fexp=51565115%2C52178455&c=VISIONOS&txp=5532534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRAIgWTvclQZgleu8_I373Fj0rYwAZM-Ym4a-SrprelX9akkCIGDv_TsYwVQTLOOo82Knk2_UAwHX8Slng1a1l32BjzQY&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgJ9gQb60y54RPKXC8SH499p9ZdIOg1uXVvLAY-_NQbT0CIBfmkEeW1bWTmNulrlhF5tx9E1L3AKnFI8FeXqD0u3QE" controls autoplay muted style="width: 640px; height: 360px;"></video>
+    <audio id="a" src="https://rr1---sn-jtcxg-iqqs.googlevideo.com/videoplayback?expire=1789666359&ei=18-rar_dIp_5xN8P_ubVwQc&ip=2400%3Aadc3%3A136%3Ac102%3Ab5d7%3Ab7a3%3Aeb0b%3Ab283&id=o-AE9kagOeTML93gbTnUCn0L4zkpSQb1AaLpSjnLu5BBUO&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=1007&met=1789644759%2C&mh=f5&mm=18%2C29&mn=sn-jtcxg-iqqs%2Csn-hju7enel&ms=aub%2Crdu&mv=m&mvi=1&pl=51&rms=aub%2Caub&initcwndbps=513625&bui=AR3QkAmk3em2SWhZgGnGR37e1NW3hMPFX_jyIy6Cd-BppeGINFZfOmu2ZP20e62ByypLr-ybxW9XhzD_&spc=I-rgIVr1gwgeetuSGq75bjkm_tooGYMfVInhXMA1fdU4L_Zi5wyMHZSDDg&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=5938627&dur=366.898&lmt=1784977106661639&mt=1789644284&fvip=3&keepalive=yes&fexp=51565115%2C52178455&c=VISIONOS&txp=5532534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRQIgSspm0CsQ0dHUZpLoopbcVeT1Fx3iiputrnWAmPgsosUCIQCNCi6QRtsic1J8u2fdutqxijNCOuu1OJwyNw39arAZYw%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgJ9gQb60y54RPKXC8SH499p9ZdIOg1uXVvLAY-_NQbT0CIBfmkEeW1bWTmNulrlhF5tx9E1L3AKnFI8FeXqD0u3QE" controls autoplay></audio>
+    <script>
+      const v = document.getElementById('v');
+      const a = document.getElementById('a');
+      v.onplay = () => a.play();
+      v.onpause = () => a.pause();
+      v.onseeked = () => a.currentTime = v.currentTime;
+    </script>
+    </body></html>
+  
